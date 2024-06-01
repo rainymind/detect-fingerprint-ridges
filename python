@@ -1,8 +1,8 @@
 import cv2
-# Read the fingerprint image
+# Read the fingerprint image.
 image = cv2.imread('fingerprint_image.jpg', cv2.IMREAD_GRAYSCALE)
 
-# Create a blob detector object for ridge detection
+# Create a blob detector object for ridge detection.
 fingerprint_detector = cv2.SimpleBlobDetector_create()
 
 # Detect ridges
