@@ -1,4 +1,4 @@
-# 01
+# 012
 import cv2
 # Read the fingerprint image.
 image = cv2.imread('fingerprint_image.jpg', cv2.IMREAD_GRAYSCALE)
